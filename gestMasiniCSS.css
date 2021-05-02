@@ -1,0 +1,173 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	min-height:620px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+/*
+.titlu{
+	position:relative;
+	top:55px;
+	opacity:0.8;
+	background-color:white;
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:10%;
+	border-radius: 8px;
+
+}
+
+
+*/
+.gestPretServ{
+	background-color:white;
+	opacity:0.93;
+	position: absolute;
+	width:75%;
+	height:482px;
+	max-height:490px;
+	left:10%;
+	top: 160px;
+	border:3px solid  white;
+	border-radius: 8px;
+	overflow:auto;
+	
+}
+	.crServ, .addTipCar{
+		position:absolute;
+		width: 40%;
+		max-height:10%;
+		margin-top:2%;
+		padding:2px;
+		border-radius:8px;
+		overflow:auto;
+	}
+	
+	.crServ{
+		left:5%;
+		
+	}
+	.addTipCar{
+		left:54%;
+	}
+	
+	
+	
+	.crServ a, .addTipCar a {
+		text-align:center;
+		display:block;
+		border: 2px solid white;
+		text-decoration:none;
+		font-size:22px;
+		padding:2% 15%;
+		background-image:linear-gradient(white,gray);
+		border-radius: 8px;
+		color:black;
+	}
+	
+	.crServ a:hover{
+			background-image:linear-gradient(white,lightgray);
+
+	}
+	.addTipCar a:hover{
+			background-image:linear-gradient(white,lightgray);
+
+	}
+		
+	.vizPretServSt, .vizPretServDr{
+		position:absolute;
+		max-height:83%;
+		top:10%;
+		margin-top:2%;
+		border: 2px solid white;
+		border-radius:8px;
+		overflow:auto;
+	}
+	.vizPretServSt{
+		left:1%;
+		width: 48%;
+	}
+	.vizPretServDr{
+		left:51%;
+		width: 46%;
+	}
+	
+	
+	.color, .lighterColor{
+		position:relative;
+		font-size:24px;
+		border-radius: 8px;
+		padding-bottom:10px;
+		padding-top:10px;
+	}
+	
+	.color{
+		background-color:#f0f6ff;
+		margin-top:8px;
+		margin-bottom:8px;
+	}
+	
+	.lighterColor{
+		background-color:#e3eeff;
+	}
+
+.editNume, .stergeServ{
+	position:absolute;
+	text-align:center;
+	margin-top:-4.5px;
+}
+
+		.editNume{ 
+			right:30%;
+			width: auto;
+		}
+		
+		
+		.stergeServ{  
+			right:9%;
+			width: 15%;
+		}
+		
+		.editNume a, .stergeServ a{
+			text-decoration:none;
+			/*background-image:linear-gradient(white,gray);*/
+			background-image:linear-gradient(white,gray);
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+		}
+
+	
+
+	{.editNume,.stergeServ}a:hover{
+			/*background-image:linear-gradient(white,#515953);*/
+			background-image:linear-gradient(white,lightgray);
+
+		}
+		/*
+		.stergeServ a:hover{
+				background-image:linear-gradient(lightgray,white,gray);
+		}
+		
+		*/
+	
+	.progrChDr{
+	/*border: 1px solid green;*/
+	position:absolute;
+	left:68%;
+	height:100%;
+	width: 17%;
+}
+
+.progrChSt{
+	position:relative;
+	left:1%;
+	top:3%;
+	width: 58%;
+	height: 97%;
+	
+}
+	

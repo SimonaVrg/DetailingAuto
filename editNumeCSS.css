@@ -1,0 +1,38 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.editContainer{
+	position: absolute;
+	background-color: white;
+	opacity:0.9;
+	max-width: 30%;
+	left:7%;
+	top:18%;
+	padding:2%;
+	border-radius:8px;
+	font-size:20px;
+	
+}
+
+.editContainer input{
+	color:black;
+	background-color:white;
+	padding:3px;
+	border: 1px solid gray;
+}
+
+button{
+	margin-top:10px;
+	font-size:12px;
+}
+button:hover{
+	background-image:white;
+	
+}
+

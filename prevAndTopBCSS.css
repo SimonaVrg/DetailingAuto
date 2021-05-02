@@ -1,0 +1,94 @@
+/*buton inapoi*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+	border-radius:8px;
+	position:absolute;
+	background-color: #f1f1f1;
+	color: black;
+	top:12%;
+}
+
+/* sf buton inapoi*/
+
+/* Pentru bara cu Log In + Servicii*/
+.topbar{
+	position: relative;
+	background-repeat:no-repeat;
+	height:10%;
+	width:100%;
+	top: 5px;
+	left: 1px;
+	
+}
+
+.tbl{
+	position:absolute;
+	top:5px;
+	left:0px;
+	width:47%;
+	
+}
+
+.tbr{
+	position:absolute;
+	top:5px;
+	right:0px;
+	width:53%;
+}
+
+.topbar a{
+	border-radius: 8px;
+	background-image:linear-gradient(white,lightgray);
+	padding:1%;
+	margin:1px;
+	text-decoration:none;
+	font-size:25px;
+	color:black;
+	padding:2%;
+}
+
+.topbar a:hover{
+	color:black;
+	background-image:linear-gradient(white,gray);
+	/*padding:10px;*/
+}
+
+/*--------*/
+
+.titlu{
+	position:absolute;
+	top:12%;
+	opacity:0.8;
+	background-color:white;
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:15%;
+	border-radius: 8px;
+	
+	letter-spacing: 3px;
+	
+}
+
+.welcome{
+		opacity:0.8;
+		background-color:white;
+		width:30%;
+		padding:4px;
+		height:10%;
+		text-align:center;
+		margin-top:1%;
+		margin-left:0.1%;
+		border-radius: 8px;
+		
+	}

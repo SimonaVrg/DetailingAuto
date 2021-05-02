@@ -1,0 +1,25 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.aboutUs p{
+	position:absolute;
+	top:24%;
+	margin-left:10%;
+	
+	width:80%;
+	background:rgb(255,255,255,0.6);
+	
+	
+	padding:3px;
+	text-align:center;
+	font-size: 26px;
+	
+	border-radius: 8px;
+}

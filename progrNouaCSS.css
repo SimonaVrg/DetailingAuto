@@ -1,0 +1,82 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+
+.codVoucher{
+	position: absolute;
+	 margin-left: 40%;
+	 margin-top:7.5%;
+	  width:20%;
+	 max-height:20%;
+	  padding: 20px;
+	  background-color:  white;
+	  opacity:0.8;
+
+	  overflow:auto;
+	  border-radius: 8px;
+}
+
+.createProgrForm{
+	 position: absolute;
+	 margin-left: 10%;
+	 margin-top:1%;
+	top:10%;
+	  max-width: 320px;
+	  max-height: 70%;
+	  padding: 2%;
+	  background-color:  white;
+	  opacity:0.9;
+	
+	  overflow:auto;
+	  border-radius: 8px;
+  
+}
+
+.createProgrForm a{
+	text-decoration:none;
+	color:black;
+	/*;padding:1%;
+	;background-image:linear-gradient(white,lightgray);
+	;border:1px solid gray;*/
+}
+/*
+.createProgrForm a:hover{
+	text-decoration:none;
+	color:black;
+	padding:2px;
+	background-image:linear-gradient(white,gray);
+	border:1px solid gray;
+}
+*/
+input{
+	padding-left:2%;
+	font-size:20px;
+	color:black;
+	border: 1px solid gray;
+}
+
+input:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+
+/*
+button{
+	padding:1%;
+	font-size:20px;
+	background-image:linear-gradient(white,lightgray);
+	display:block;
+	text-align:center;
+	border: 1px solid gray;
+}
+button:hover{
+	padding:3px;
+	background-image:linear-gradient(white,gray);
+}
+*/

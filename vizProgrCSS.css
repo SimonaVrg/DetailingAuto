@@ -1,0 +1,214 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gestProgr{
+	background-color:white;
+	opacity:0.93;
+	position: absolute;
+	width:70%;
+	height:480px;
+	left:5%;
+	top: 24%;
+	border:3px solid  white;
+	overflow:auto;
+	border-radius: 8px;
+}
+
+.nuExProgr{
+	position:fixed;
+	width: 30%;
+	text-align:center;
+	font-size:22px;
+	color:black;
+	background-color:white;
+	opacity:0.9;
+	border-radius:8px;
+	max-height:10%;
+	margin:5%;
+}
+
+.crProg{
+	position:fixed;
+	width: 30%;
+	height:10%;
+	margin:3%;
+}
+.crProg a{
+	text-decoration:none;
+	font-size:22px;
+	padding:3% 16%;
+	background-image:linear-gradient(white,gray);
+	border-radius: 8px;
+	color:black;
+}
+.crProg a:hover{
+	color:black;
+	background-image:linear-gradient(white,lightgray);
+}
+
+.chSt{
+	position:absolute;
+	left:0%;
+	width:96%;
+	height:100%;
+	
+}
+
+
+.crProgNoua{
+	position:absolute;
+	width: 80%;
+	height:11%;
+    left:10%;
+	margin:3%;
+	overflow:auto;
+	border-radius: 8px;
+	text-align:center;
+}
+.crProgNoua a{
+	text-decoration:none;
+	font-size:25px;
+	padding:2.4% 10.5%;
+	background-image:linear-gradient(white,gray);
+	border-radius: 8px;
+	color:black;
+}
+
+.crProgNoua a:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+
+
+/*
+.progrChDr a{
+	background-image:linear-gradient(lightgray,white,lightgray);
+	margin-top:3%;
+	
+	text-decoration:none;
+	text-align:center;
+	
+	border-radius:8px;
+	color:black;
+}
+
+.progrChDr a:hover{
+	color:black;
+	background-image:linear-gradient(lightgray,white,gray);
+	
+}
+*/
+.progrChDr{
+	/*border: 1px solid green;*/
+	position:absolute;
+	left:75%;
+	width: 20%;
+	
+}
+.progrChSt{
+	
+	position:relative;
+	left:1%;
+	top:3%;
+	width: 70%;
+	height: 97%;
+}
+.Anulata , .Acceptata, .Finalizata{
+	position:relative;
+	/*height:170px;*/
+	height:auto;
+	margin-top:1px;
+	border: 1px solid gray;
+	border-radius:8px;
+	padding-bottom:10px;
+}
+.Anulata{
+	background-color:rgb(250, 227, 227);
+}
+.Acceptata{
+	background-color:rgb(235, 237, 240);
+}
+.Finalizata{
+	background-color:rgb(215, 242, 211);
+}
+
+/*
+.deleteProg{
+	position:relative;
+	max-width: 35%;
+	height:25%;
+    right:1px;
+	top:1px;
+	text-align:center;
+
+}
+
+.editProg{
+	position:relative;
+	max-width: 35%;
+	height:25%;
+    right:1px;
+	top:37%;
+	text-align:center;
+
+}*/
+{.deleteProg, .editProg} a{
+	/*background-image:linear-gradient(gray,white,gray);*/
+	background-image:linear-gradient(lightgray,white,lightgray);
+	text-decoration:none;
+	border-radius:8px;
+	color:black;
+}
+{.deleteProg,.editProg} a:hover{
+	color:black;
+	background-image:linear-gradient(lightgray,white,gray);
+}
+
+
+
+.vizProgr{
+	position:absolute;
+	width: 96%;
+	height:75%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+	border-radius:8px;
+	
+	overflow:auto;
+}
+
+.istoricProgr{
+	position:absolute;
+	top:79%;
+	left:0px;
+	margin-left:3%;
+	margin-top:3%;
+	width:90%;
+	height:11%;
+	border-radius: 8px;
+	text-align:center;
+	
+}
+
+.istoricProgr a{
+	text-decoration:none;
+	font-size:25px;
+	padding:2.5% 15%;
+	background-image:linear-gradient(white,gray);
+	border-radius: 8px;
+	color:black;
+}
+.istoricProgr a:hover{
+	color:black;
+	background-image:linear-gradient(white,lightgray);
+}
+
+
+

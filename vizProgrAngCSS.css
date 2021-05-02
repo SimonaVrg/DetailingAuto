@@ -1,0 +1,189 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*
+.titlu{
+	position:relative;
+	top:45px;
+	opacity:0.8;
+	background-color:white;
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:15%;
+	border-radius: 8px;
+	
+}
+*/
+
+.gestProgr{
+	background-color:white;
+	opacity:0.93;
+	position: relative;
+	width:65%;
+	height:500px;
+	left:8%;
+	top: 155px;
+	border:3px solid  white;
+	border-radius: 8px;
+	overflow:auto;
+}
+
+
+.nuExProgr{
+	position:fixed;
+	width: 30%;
+	font-size:22px;
+	color:black;
+	background-color:white;
+	opacity:0.9;
+	border-radius:8px;
+	max-height:10%;
+	text-align:center;
+	margin:5%;
+   
+}
+ button{
+	 margin-left:35%;
+ }
+
+.progrChDr{
+	/*border: 1px solid green;*/
+	position:absolute;
+	left:70%;
+	width: 20%;
+	
+}
+.progrChSt{
+	
+	position:relative;
+	left:1%;
+	top:3%;
+	width: 70%;
+	height: 97%;
+}
+/*
+.Anulata{
+	position:relative;
+	background-color:red;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+
+}
+
+.Acceptata{
+	position:relative;
+	background-color:lightyellow;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+
+}
+.Finalizata{
+	position:relative;
+	background-color:lightgreen;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+
+}
+*/
+.Anulata , .Acceptata, .Finalizata{
+	position:relative;
+	/*height:170px;*/
+	height:auto;
+	margin-top:1px;
+	border: 1px solid gray;
+	border-radius:8px;
+	padding-bottom:10px;
+}
+.Anulata{
+	background-color:rgb(250, 227, 227);
+}
+.Acceptata{
+	background-color:rgb(235, 237, 240);
+}
+.Finalizata{
+	background-color:rgb(215, 242, 211);
+}
+
+
+.vizProgr{
+	position:absolute;
+	width: 93%;
+	height:80%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+	border-radius:8px;
+	overflow:auto;
+}
+
+.istoricProgr{
+	position:absolute;
+	top:79%;
+	left:0px;
+	margin:3%;
+	width:50%;
+	height:10%;
+	border-radius: 8px;
+	text-align:center;
+	
+	
+}
+
+.istoricProgr a{
+	text-decoration:none;
+	font-size:35px;
+	padding:2% 15%;
+	background-image:linear-gradient(white,gray);
+	
+	border-radius: 8px;
+	color:black;
+}
+.istoricProgr a:hover{
+	color:black;
+	background-image:linear-gradient(white,lightgray);
+}
+.editProg{
+	right:0px;
+	
+}
+.finProg{
+	left:0px;
+}
+.finProg, .editProg{ 
+	position:absolute;
+	width: 24%;
+	height:24%;
+	top:2px;
+    text-align:center;
+	padding:1px;
+	
+}
+.finProg a, .editProg a{
+	
+	text-decoration:none;
+	color:black;
+	font-size:16px;
+	
+	border-radius: 8px;
+	
+	
+	background-image:linear-gradient(white,gray);
+}
+
+.finProg a:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+.editProg a:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+

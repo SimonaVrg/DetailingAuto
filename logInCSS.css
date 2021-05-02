@@ -1,0 +1,33 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logInForm{
+	position: absolute;
+	  margin-left:110px;
+	margin-top:8%;
+	  max-width: 300px;
+	  padding: 30px;
+	  background-color:  white;
+	  opacity:0.9;
+	
+	  overflow:auto;
+	  border-radius: 8px;
+}
+input{
+		padding-left:2%;
+	font-size:20px;
+	color:gray;
+	display:block;
+	text-align:center;
+	;border: 1px solid gray;
+	 border-radius: 8px;
+}
+input:hover{
+	background-image:linear-gradient(white,lightgray);
+}

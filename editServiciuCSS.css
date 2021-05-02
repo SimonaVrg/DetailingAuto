@@ -1,0 +1,61 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*
+.titlu{
+	position:relative;
+	top:45px;
+	
+	background-color:rgb(255,255,255,0.8);
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:15%;
+	border-radius: 8px;
+	
+}
+
+*/
+.editContainer{
+	position: absolute;
+	max-width: 350px;
+	background-color:rgb(255,255,255,0.8);
+	margin: 40px;
+	margin-top:180px;
+	margin-left:200px;
+	padding-top:10px;
+	padding-bottom: 20px;
+	padding-left:20px;
+	padding-right:20px;
+	
+	font-size:24px;
+	
+	border-radius: 8px;
+}
+
+input{
+	padding-left:2%;
+	margin-top:2px;
+	font-size:20px;
+	color:black;
+	border: 1px solid gray;
+}
+
+input:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+
+button{
+	margin-top:10px;
+	
+}
+button:hover{
+	background-image:white;
+}
+

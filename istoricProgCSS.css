@@ -1,0 +1,114 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gestProgr{
+	background-color:white;
+	opacity:0.93;
+	position: absolute;
+	width:65%;
+	height:76%;
+	left:10%;
+	top: 24%;
+	border:3px solid  white;
+	border-radius: 8px;
+
+}
+
+.nuExProgr{
+	position:absolute;
+	top:15%;
+	max-height:30%;
+	width: 30%;
+	font-size:22px;
+	color:black;
+	background-color:white;
+	opacity:0.9;
+	border-radius:8px;
+	
+	margin:5%;
+   
+}
+
+.Anulata , .Acceptata, .Finalizata{
+	position:relative;
+	/*height:170px;*/
+	height:auto;
+	margin-top:1px;
+	border: 1px solid gray;
+	border-radius:8px;
+	padding-bottom:10px;
+}
+.Anulata{
+	background-color:rgb(250, 227, 227);
+}
+.Acceptata{
+	background-color:rgb(235, 237, 240);
+}
+.Finalizata{
+	background-color:rgb(215, 242, 211);
+}
+
+.deleteProg{
+
+	position:absolute;
+	max-width: 50%;
+	max-height:28%;
+    right:0%;
+	top:0%;
+}
+
+.deleteProg input{
+	margin-left:-15%;
+	margin-top:12%;
+	height:50px;
+	padding:3%;
+	font-size:20px;
+	text-decoration:none;
+	background-image:linear-gradient(lightgray,white,lightgray);
+	border-radius:8px;
+	border: 1px solid lightgray;
+	text-align:center;
+	color:black;
+	
+}
+.deleteProg input:hover{
+	background-image:linear-gradient(lightgray,white,gray);
+
+}
+
+/*
+.deleteProg input{
+	background-image:linear-gradient(lightgray,white,lightgray);
+	margin-top:3%;
+	
+
+	color:black;
+}
+
+.deleteProg input:hover{
+	color:black;
+	background-image:linear-gradient(lightgray,white,gray);
+	
+}
+
+*/
+
+
+.vizProgr{
+	position:absolute;
+	width: 95%;
+	height:85%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+   
+	border-radius:8px;
+	overflow:auto;
+}

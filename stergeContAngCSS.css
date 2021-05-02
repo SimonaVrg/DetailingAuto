@@ -1,0 +1,95 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+
+/*
+.titlu{
+	position:relative;
+	
+	opacity:0.8;
+	background-color:white;
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:8%;
+	
+	border-radius: 8px;
+	border: 1px solid gray;
+}
+*/
+.infoAng, .infoProg{
+	position:relative;
+	top:150px;
+	
+	background-color:rgb(255,255,255,0.7);
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:10%;
+	border-radius: 8px;
+	 font-size:20px;
+}
+
+	
+	 
+
+
+.infoProg button{
+	height:35px;
+}
+
+/*
+.infoProg button{
+	
+	font-size:20px;
+	background-color:lightgray;
+	background-image:linear-gradient(white,gray);
+	text-align:center;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-bottom:3px;
+	padding:3px;
+}
+
+.infoProg button:hover{
+	background-image:linear-gradient(white,lightgray);
+	padding:4px;
+}
+*/
+
+
+
+.nuExProgNef{
+	position:relative;
+	width: 50%;
+	height:80%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+ 
+	border-radius:8px;
+	overflow:auto;
+}
+   
+
+
+.vizProgr{
+	position:absolute;
+	width: 50%;
+	height:80%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+    
+	border-radius:8px;
+	overflow:auto;
+}
+

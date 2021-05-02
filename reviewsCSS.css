@@ -1,0 +1,62 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  /*min-height:620px;
+  background-position: center;*/
+/*background-repeat: no-repeat;*/
+  background-size: cover;
+ 
+}
+
+.gestProgr{
+background-color:white;
+	opacity:0.93;
+	position: absolute;
+	width:80%;
+	/*height:75%;*/
+	left:7%;
+	top: 24%;
+	border:3px solid  white;	
+	border-radius:8px;
+	/*overflow:auto;*/
+	
+}
+
+.nuExProgr{
+	position:fixed;
+	width: 30%;
+	font-size:22px;
+	color:black;
+	background-color:white;
+	opacity:0.9;
+	border-radius:8px;
+	height:5%;
+	margin:5%;
+}
+
+
+.Finalizata{
+		position:relative;
+	/*background-color:#98cdcd;*/
+	background-image:linear-gradient(#eef7f7,#cbe6e6,#eef7f7); 
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+
+}
+.containerReview{
+	position:relative;
+	background-color:gray;
+	/*border: 1px solid gray;*/
+	
+	border-radius: 8px;
+	margin-bottom:1%;
+}
+.review{
+	position:relative;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-bottom:1%;
+
+}
+
+

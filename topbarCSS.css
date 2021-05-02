@@ -1,0 +1,54 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	background-size: cover;
+}
+
+.topbar{
+	position: relative;
+	background-repeat:no-repeat;
+	height:10%;
+	width:100%;
+	top: 5px;
+	left: 1px;
+	/*border: 1px solid #73AD21;*/
+}
+
+.tbl{
+	position:absolute;
+	top:5px;
+	left:0px;
+	width:30%;
+	/*border: 1px solid #73AD21;*/
+}
+
+.tbr{
+	position:absolute;
+	top:5px;
+	right:0px;
+	width:45%;
+	float:right;
+	/*border: 1px solid #73AD21;*/
+}
+
+.topbar a{
+	border-radius: 8px;
+	background-color: white;
+	padding:1%;
+	margin:1px;
+	text-decoration:none;
+	font-size:25px;
+	color:gray;
+}
+
+.topbar a:hover{
+	color:black;
+	background-image:linear-gradient(white,lightgray);
+	padding:10px;
+}
+
+
+
+
+
+
+

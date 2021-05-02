@@ -1,0 +1,27 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	min-height:620px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.editContainer{
+	background-color: white;
+	position: absolute;
+	opacity:0.9;
+	left:7%;
+	top:18%;
+	max-width: 30%;
+	padding: 2%;
+	border-radius: 8px;
+	text-align: center;
+  
+}
+
+.editContainer a{
+	margin-left:0%;
+	text-decoration:none;
+	color:black;
+}

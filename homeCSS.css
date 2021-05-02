@@ -1,0 +1,55 @@
+body{
+	
+	background-image:url("images/homeBackgr.jpg");
+	background-size: cover;
+	background-color:lightgray;
+	
+}
+/*
+.titluC{
+	position:fixed;
+	
+	background-image:linear-gradient(white,lightgray);
+	top:13%;
+	left:1%;
+	width:96%;
+	max-height:15%;
+	border-radius: 8px;
+	text-align:center;
+	color:white;
+	font-size:50px;
+	text-shadow: 5px 3px 4px #000000;
+	padding:13px;
+}
+
+*/
+.titluC{
+	position:fixed;
+	background-image:linear-gradient(white,lightgray);
+	top:13%;
+	left:1%;
+	width:96%;
+	max-height:15%;
+	border-radius: 8px;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	
+	padding:12px;
+}
+
+
+.boxL{
+	position:absolute;
+	background-image:linear-gradient(white,lightgray);
+	top:30%;
+	left:1%;
+	width:55%;
+	height:40%;
+	border-radius:8px;
+	text-align:center;
+	color:black;
+	font-size:50px;
+	
+	padding:12px;
+}

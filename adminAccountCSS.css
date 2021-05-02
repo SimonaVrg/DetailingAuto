@@ -1,0 +1,103 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	background-size: cover;
+}
+
+/*----Pentru continut ----*/
+
+.mainDiv{
+	position: relative;
+	background-repeat:no-repeat;
+	height:74%;
+	width:90%;
+	left:5%;
+	top: 30px;
+	/*border: 1px solid red;*/AGY7O6KK`
+	text-align:center;
+	
+}
+
+.mainDiv a{
+	border-radius: 8px;
+	background-color: white;
+	padding:1%;
+	margin:1px;
+	text-decoration:none;
+	font-size:23px;
+	color:black;
+}
+	.progr, .details {
+		position:absolute;
+		height:87%;
+		top:4px;
+		background-color:rgb(255,255,255,0.8);
+		border-radius:8px;
+	}
+	
+	.progr{
+		left:0px;
+		width:59%;
+	}
+
+	.details{
+		right:0px;
+		width:39%;
+		float:right;
+	}
+
+
+	.progr a{
+		display:block;
+		width:80%;
+		padding-top:15px;
+		padding-bottom:15px;
+		margin: 3% 9%;
+		text-align:center;
+		background-image:linear-gradient(white,lightgray);
+		border: 1px solid gray;
+		
+	}
+	.progr p{
+		font-family:Arial;
+		font-size:30;
+		text-align:center;
+		
+	}
+	
+	.detCl{
+		
+		width:75%;
+		height:30%;
+		margin-top:10%;
+		margin-left:10%;
+		margin-right:20%;
+		
+		text-align:center;
+		font-size: 20px;
+	
+		
+	}
+		.details a{
+			text-align:center;
+			display:block;
+			width:40%;
+			margin-left:30%;
+			margin-top:50px;
+			border: 1px solid gray;
+			background-image:linear-gradient(white,lightgray);
+			
+		}
+		.details p{
+			font-family:Arial;
+			font-size:30;
+			text-align:center;
+		}
+
+.mainDiv a:hover{
+color:black;
+background-image:linear-gradient(white,gray);
+/*padding:11px;*/
+}
+
+
+

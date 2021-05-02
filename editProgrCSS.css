@@ -1,0 +1,134 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gestProgr{
+	background-color:white;
+	opacity:0.93;
+	position: absolute;
+	width:70%;
+	height:465px;
+	left:5%;
+	top: 24%;
+	border:3px solid  white;
+	overflow:auto;
+	border-radius: 8px;
+	
+	padding-top:25px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.nuExProgr{
+	position:fixed;
+	width: 30%;
+	text-align:center;
+	font-size:22px;
+	color:black;
+	background-color:white;
+	opacity:0.9;
+	border-radius:8px;
+	max-height:10%;
+	margin:5%;
+}
+
+
+.chSt{
+	position:absolute;
+	left:0%;
+	width:96%;
+	height:100%;
+	
+}
+
+
+.progrChDr{
+	/*border: 1px solid green;*/
+	position:absolute;
+	left:75%;
+	width: 20%;
+	
+}
+/*
+.progrChDr a{
+	background-image:linear-gradient(lightgray,white,lightgray);
+	margin-top:3%;
+	
+	text-decoration:none;
+	text-align:center;
+	
+	border-radius:8px;
+	color:black;
+}
+
+.progrChDr a:hover{
+	color:black;
+	background-image:linear-gradient(lightgray,white,gray);
+	
+}
+*/
+.progrChSt{
+	
+	position:relative;
+	left:1%;
+	top:3%;
+	width: 70%;
+	height: 97%;
+}
+/*
+.Anulata{
+	position:relative;
+	background-color:rgb(250, 227, 227);
+	border: 1px solid gray;
+	border-radius:8px;
+	height:120px;
+	margin-top:1px;
+
+}
+
+.Acceptata{
+	position:relative;
+	background-color:rgb(235, 237, 240);
+	border: 1px solid gray;
+	border-radius:8px;
+	margin-top:1px;
+	height:120px;
+
+}
+*/
+.Anulata , .Acceptata{
+	position:relative;
+	/*height:170px;*/
+	height:auto;
+	margin-top:1px;
+	border: 1px solid gray;
+	border-radius:8px;
+	padding-bottom:10px;
+}
+.Anulata{
+	background-color:rgb(250, 227, 227);
+}
+.Acceptata{
+	background-color:rgb(235, 237, 240);
+}
+
+
+.vizProgr{
+	position:absolute;
+	width: 96%;
+	height:100%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+	border-radius:8px;
+	
+	overflow:auto;
+}
+
+

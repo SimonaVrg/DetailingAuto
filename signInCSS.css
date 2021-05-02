@@ -1,0 +1,32 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.signInForm{
+	 position: absolute;
+	  margin-left:110px;
+	margin-top:5.5%;
+	  max-width: 300px;
+	  padding: 30px;
+	  background-color: rgb(255,255,255,0.9);
+	 
+	  overflow:auto;
+	  border-radius: 8px;
+}
+input{
+	padding-left:2%;
+	font-size:20px;
+	color:gray;
+	display:block;
+	text-align:center;
+	border: 1px solid gray;
+}
+input:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+

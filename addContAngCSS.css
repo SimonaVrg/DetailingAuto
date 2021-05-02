@@ -1,0 +1,70 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.addContainer{
+	 position: absolute;
+	 opacity:0.8;
+	 margin-top:120px;
+	  margin-left: 110px;
+	  
+	  height:auto;
+	  max-width: 370px;
+	  padding: 30px;
+	  background-color: white;
+	 	border-radius: 8px;
+  
+}
+/*
+.addContainer button{
+
+
+	
+	font-size:20px;
+	background-color:lightgray;
+	background-image:linear-gradient(white,gray);
+	text-align:center;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-left:25%;
+	margin-bottom:3px;
+	padding:3px;
+}
+.addContainer button:hover{
+	background-image:linear-gradient(white,lightgray);
+	padding:4px;
+}
+
+*/
+input{
+	width:190px;
+	margin-top:5px;
+	font-size:20px;
+	color:black;
+	border: 1px solid gray;
+}
+
+input:hover{
+	background-image:linear-gradient(white,lightgray);
+}
+
+
+/*
+button{
+	margin-top:20px;
+	font-size:18px;
+	
+}
+button:hover{
+	background-image:white;
+	padding:3px;
+	background-image:linear-gradient(white,lightgray);
+}
+*/
+

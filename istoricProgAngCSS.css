@@ -1,0 +1,169 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gestProgr{
+	background-color:rgb(255,255,255,0.93);
+	position: absolute;
+	width:65%;
+	height:76%;
+	left:10%;
+	top: 24%;
+	
+	border-radius: 8px;
+
+}
+/*
+.crProgNoua{
+	position:absolute;
+	width: 30%;
+	height:10%;
+    right:0px;
+
+	margin:3%;
+   
+	overflow:auto;
+	border-radius: 8px;
+	text-align:center;
+}
+.crProgNoua a{
+	text-decoration:none;
+	font-size:22px;
+	padding:3% 16%;
+	background-image:linear-gradient(white,gray);
+	border-radius: 8px;
+	color:black;
+}
+.crProgNoua a:hover{
+	color:black;
+	background-image:linear-gradient(white,lightgray);
+}
+*/
+
+.nuExProgr{
+	position:absolute;
+	top:15%;
+	max-height:30%;
+	width: 30%;
+	font-size:22px;
+	color:black;
+	background-color:white;
+	opacity:0.9;
+	border-radius:8px;
+	
+	margin:5%;
+   
+}
+/*
+.crProg{
+	top:25%;
+	position:fixed;
+	width: 30%;
+	height:15%;
+	margin:5%;
+	
+}
+.crProg a{
+	text-decoration:none;
+	font-size:22px;
+	padding:3% 16%;
+	background-image:linear-gradient(white,gray);
+	border-radius: 8px;
+	color:black;
+}
+.crProg a:hover{
+	color:black;
+	background-image:linear-gradient(white,lightgray);
+}
+*/
+
+.Anulata{
+	position:relative;
+	background-color:#ff5f54;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+
+}
+
+.Acceptata{
+	position:relative;
+	background-color:lightyellow;
+	border: 1px solid gray;
+	border-radius: 8px;
+		margin-top:1px;
+
+}
+.Finalizata{
+	position:relative;
+	background-color:#bcf7a1;
+	border: 1px solid gray;
+	border-radius: 8px;
+		margin-top:1px;
+
+}
+
+.deleteProg{
+
+	position:absolute;
+	max-width: 50%;
+	max-height:28%;
+    right:0%;
+	top:0%;
+}
+.deleteProg input{
+	font-size:20px;
+	text-decoration:none;
+	background-image:linear-gradient(white,#f0b4a1);
+	  border: 1px solid gray;
+	border-radius:8px;
+	text-align:center;
+	color:black;
+}
+.deleteProg input: hover{
+	color:white;
+}
+
+.vizProgr{
+	position:absolute;
+	width: 95%;
+	height:85%;
+	left:0px;
+	top:0;
+	margin:3%;
+	bottom:11%;
+   
+	border-radius:8px;
+	overflow:auto;
+}
+
+
+/*  pentru istoric programari angajati */
+.finProg{ 
+	position:absolute;
+	width: 40%;
+	height:24%;
+	top:0px;
+    right:0px;
+	padding:1px;
+	text-align:center;
+}
+.finProg a{
+	text-decoration:none;
+	color:black;
+	font-size:16px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	text-align:center;
+	background-color: white;
+	background-image:linear-gradient(white,gray);
+}
+
+.finProg a:hover{
+	background-image:linear-gradient(white,lightgray);
+}

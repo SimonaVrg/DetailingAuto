@@ -1,0 +1,65 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	min-height:620px;
+	background-size: cover;
+}
+
+.gestProgr{
+	background-color:white;
+	opacity:0.93;
+	position: absolute;
+	width:80%;
+	height:75%;
+	left:7%;
+	top: 24%;
+	border:3px solid  white;	
+	border-radius:8px;
+	overflow:auto;
+}
+.nuExProgr{
+	position:absolute;
+	
+	width: 30%;
+	height:8%;
+	padding:1%;
+	
+	font-size:22px;
+	top:15%;
+	color:black;
+	
+	background:rgb(255, 255, 255, 0.8);
+	border-radius:8px;
+	
+	margin:5%;
+   
+}
+.Finalizata{
+	position:relative;
+	/*background-color:#98cdcd;*/
+background-color:rgb(235, 237, 240);
+height:120px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+
+}
+.containerReview{
+	position:relative;
+	background-color:gray;
+	margin-bottom:1%;
+	border-radius: 8px;
+	
+}
+.review{
+	position:relative;
+	background-color:white;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-top:1px;
+}
+#textReview{
+	min-width:40%;
+	max-width:90%;
+}
+
+

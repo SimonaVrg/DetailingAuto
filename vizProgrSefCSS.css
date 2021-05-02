@@ -1,0 +1,150 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*----Pentru continut ----*/
+
+.mainDiv{
+	position: relative;
+	opacity:0.93;
+	background-color:white;
+	background-repeat:no-repeat;
+	height:78%;
+	width:90%;
+	left:5%;
+	top:8%;
+	border: 2px solid white;
+	text-align:center;
+	
+}
+
+
+	.progr{
+		position:absolute;
+		width:45%;
+		height:100%;
+		
+	}
+
+		.afisare{
+			position:absolute;
+			right:0px;
+			width:55%;
+			height:100%;
+			float:right;
+			
+			
+		}
+		
+		.afisare a{
+			text-decoration:none;
+			color:black;
+			overflow:auto;
+		}
+
+	.formButton{
+		margin:0;
+	}
+	
+	.buton{
+		display:block;
+		width:85%;
+		height:15%;
+		margin-left:9%;
+		margin-right:9%;
+		margin-top:0;
+		border-radius: 8px;
+		text-align:center;
+		font-size:25px;
+		background-color: white;
+		border:none;
+		background-image:linear-gradient(white,gray);
+	
+	}
+	
+	.buton:hover{
+		color:black;
+		background-image:linear-gradient(white,lightgray);
+		
+		}
+	
+	.progr p{
+		font-family:Arial;
+		font-size:30;
+		
+	}
+	
+	.afProgr{
+		width:90%;
+		height:92%;
+		margin-top:5%;
+		margin-left:5%;
+		margin-right:5%;
+	
+		text-align:center;
+		font-size: 14px;
+		overflow:auto;
+		
+	}
+	
+	.afProgr p{
+		font-size:22px;
+		  letter-spacing: 3px;
+	
+	}
+/*
+
+.Anulata{
+	position:relative;
+	background-color:rgb(250, 227, 227);
+	
+	margin-bottom:5%;
+}
+
+.Acceptata{
+	position:relative;
+	background-color:rgb(235, 237, 240);
+	
+	margin-bottom:5%;
+
+}
+.Finalizata{
+	position:relative;
+	background-color:rgb(215, 242, 211);
+	
+	margin-bottom:5%;
+
+}
+
+*/
+
+.Anulata , .Acceptata, .Finalizata{
+	font-size:18px;
+	position:relative;
+	/*height:170px;*/
+	height:auto;
+	margin-top:1px;
+	
+	border-radius:8px;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:5%;
+}
+.Anulata{
+	background-color:rgb(250, 227, 227);
+}
+.Acceptata{
+	background-color:rgb(235, 237, 240);
+}
+.Finalizata{
+	background-color:rgb(215, 242, 211);
+}
+
+
+
+

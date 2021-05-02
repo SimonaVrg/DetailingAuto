@@ -1,0 +1,84 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+  min-height:620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*
+.titlu{
+	 background-color: rgb(255,255,255,0.9);
+	width:30%;
+	padding:4px;
+	text-align:center;
+	margin-left:17%;
+	border-radius: 8px;
+	border: 1px solid gray;
+}
+*/
+
+.container{
+
+	/*background-color:rgb(255,255,255,0.5);*/
+	
+	position: relative;
+	width:90%;
+	height:490px;
+	left:7%;
+	top: 150px;
+	
+	border-radius: 8px;
+}
+.vizProgrAng, .addContainer{
+	top:5%;
+}
+.vizProgrAng{
+	position: absolute;
+	width: 230px;
+	max-height:80%;
+	background-color:rgb(255,255,255,0.7);
+	margin: 40px;
+	
+	padding-bottom: 20px;
+	padding-left:20px;
+	padding-right:20px;
+	
+	overflow:auto;
+	border-radius: 8px;
+}
+
+.addContainer{
+	position: absolute;
+	width: 300px;
+	background-color:rgb(255,255,255,0.7);
+	left:300px;
+	margin: 40px;
+	padding-bottom: 20px;
+	padding-left:20px;
+	padding-right:20px;
+
+	border-radius: 8px;
+}
+
+.addContainer input{
+	color:black;
+	background-color:white;
+	padding:3px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	
+}
+
+
+button{
+	margin-top:10px;
+	
+}
+/*
+button:hover{
+	background-image:white;
+	padding:3px;
+}*/
+

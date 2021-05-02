@@ -1,0 +1,170 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	min-height:620px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+/*
+.titlu{
+	position:relative;
+	top:55px;
+	opacity:0.8;
+	background-color:white;
+	width:30%;
+	padding:3px;
+	text-align:center;
+	margin-left:10%;
+	border-radius: 8px;
+	border: 1px solid gray;
+}
+*/
+
+
+.gestPretServ{
+	background-color:white;
+	opacity:0.93;
+	position: relative;
+	width:75%;
+	height:482px;
+	max-height:490px;
+	left:10%;
+	top: 160px;
+	border:3px solid  white;
+	border-radius: 8px;
+	overflow:auto;
+	
+}
+	
+	.crServ{
+		position:absolute;
+		
+		width: 40%;
+		max-height:10%;
+		left:10%;
+		margin-left:5%;
+		margin-top:2%;
+		padding:2px;
+		border-radius:8px;
+		overflow:auto;
+	}
+
+	.crServ a{
+		text-align:center;
+		display:block;
+		border: 2px solid white;
+		text-decoration:none;
+		font-size:20px;
+		padding:2% 15%;
+		background-image:linear-gradient(white,gray);
+		border-radius: 8px;
+		color:black;
+	}
+	.crServ a:hover{
+		background-image:linear-gradient(white,lightgray);
+	}
+		
+		
+	.vizPretServ{
+		position:absolute;
+		width: 92%;
+		max-height:83%;
+		top:10%;
+		
+		margin-left:4%;
+		margin-top:2%;
+		border: 2px solid white;
+		border-radius:8px;
+		overflow:auto;
+		
+	}
+
+	.color{
+		border-radius: 8px;
+		position:relative;
+		background-color:#f0f6ff;
+		margin-top:8px;
+		margin-bottom:8px;
+		font-size:18px;
+		
+	}
+	
+	.lighterColor{
+		border-radius: 8px;
+		position:relative;
+		background-color:#e3eeff;
+		font-size:18px;
+	}
+
+.editNume, .editPret, .stergeServ, .vizPretDet{
+	position:absolute;
+	height:70%;
+	top:7%;
+	text-align:center;
+}
+
+.editNume, .editPret, .stergeServ{
+	width: 10%;
+}
+
+		.vizPretDet{ 
+			right:42%;
+			width: 15%;
+		}
+		
+		.editNume{ 
+			right:29%;
+		}
+		
+		.editPret{  
+			right:16%;
+		}
+		
+		.stergeServ{  
+			right:3%;
+		}
+		
+		.vizPretDet a, .editNume a, .editPret a, .stergeServ a{
+			text-decoration:none;
+			background-image:linear-gradient(white,gray);
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+		}
+
+		/*
+		.editPret a{
+			
+			text-decoration:none;
+			background-image:linear-gradient(white,gray);
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+		}
+		
+		.stergeServ a{
+			
+			text-decoration:none;
+			background-image:linear-gradient(white,gray);
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+		}*/
+
+		.editNume a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+		}
+		.editPret a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+		}
+		.stergeServ a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+		}
+		.vizPretDet a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+		}

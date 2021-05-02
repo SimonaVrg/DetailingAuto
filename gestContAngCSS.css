@@ -1,0 +1,244 @@
+body{
+	background-image:url("images/homeBackgr.jpg");
+	background-size: cover;
+	background-color:lightgray;
+	
+}
+
+
+/*buton inapoi
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+	border-radius:8px;
+	position:fixed;
+  background-color: #f1f1f1;
+  color: black;
+  top:10%;
+}
+
+ sf buton inapoi
+
+Pentru bara cu Log In + Servicii
+
+
+.topbar{
+	position: relative;
+	background-repeat:no-repeat;
+	height:10%;
+	width:100%;
+	top: 5px;
+	left: 1px;
+	
+}
+
+.tbl{
+	position:absolute;
+	top:5px;
+	left:0px;
+	width:30%;
+	
+}
+
+.tbr{
+	position:absolute;
+	top:5px;
+	right:0px;
+	width:45%;
+	float:right;
+
+}
+
+.topbar a{
+	border-radius: 8px;
+	background-image:linear-gradient(white,gray);
+	padding:1%;
+	margin:1px;
+	text-decoration:none;
+	font-size:25px;
+	color:black;
+}
+
+.topbar a:hover{
+	color:black;
+	background-image:linear-gradient(white,gray);
+	padding:10px;
+}
+
+*/
+
+
+
+
+
+
+
+/*
+.titlu{
+	
+	opacity:0.8;
+	background-color:white;
+	width:30%;
+	padding:4px;
+	text-align:center;
+	margin-left:17%;
+	
+	border-radius: 8px;
+	border: 1px solid gray;
+}
+*/
+.gestAng{
+	background-color: white;
+	opacity:0.9;
+	position: relative;
+	width:85%;
+	height:530px;
+	left:10%;
+	top: 150px;
+	border:3px solid  white;
+	border-radius: 8px;
+	
+}
+	
+	.crContAng{
+		position:absolute;
+		max-width: 100%;
+		height:10%;
+		left:0px;
+		margin-left:5%;
+		margin-top:2%;
+		padding:2px;
+		border: 2px solid white;
+		border-radius:8px;
+		overflow:auto;
+			border-radius:8px;
+	}
+
+	.crContAng a{
+		text-align:center;
+		background-image:linear-gradient(white,#515953);
+		display:block;
+		text-decoration:none;
+		font-size:30px;
+		border-radius: 8px;
+		color:black;
+	}
+	.crContAng a:hover{
+			color:black;
+			background-image:linear-gradient(white,lightgray);
+	}
+		
+		
+	.vizAng{
+		position:absolute;
+		width: 90%;
+		height:83%;
+		top:10%;
+		left:0px;
+		margin-left:5%;
+		margin-top:2%;
+		border: 2px solid white;
+		border-radius:8px;
+		overflow:auto;
+	}
+
+	.color{
+		
+		position:relative;
+		background-color:#f0f6ff;
+		border: 1px solid white;
+		padding:4px;
+
+	}
+	.lighterColor{
+		position:relative;
+		background-color:#e3eeff;
+		border: 1px solid white;
+		padding: 4px;
+
+	}
+
+
+		.zileLibere{  
+			position:absolute;
+			width: 7%;
+			height:60%;
+			top:13%;
+			right:28%;
+			padding:3px;
+			text-align:center;
+		}
+		.zileLibere a{
+			text-decoration:none;
+			background-image:linear-gradient(white,gray);
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+			
+		}
+
+		.zileLibere a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+			
+		}
+		
+		.editDetCont{  
+			position:absolute;
+			width: 15%;
+			height:60%;
+			top:13%;
+			right:10%;
+			padding:3px;
+			text-align:center;
+		}
+		.editDetCont a{
+			text-decoration:none;
+			background-image:linear-gradient(white,gray);
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+			
+		}
+
+		.editDetCont a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+			
+		}
+	
+	
+		.stergeCont{  
+			position:absolute;
+			width: 7%;
+			height:60%;
+			top:13%;
+			right:1%;
+			padding:3px;
+			text-align:center;
+		}
+		
+		.stergeCont a{
+			background-image:linear-gradient(white,gray);
+			text-decoration:none;
+			border-radius:8px;
+			font-size:16px;
+			color:black;
+			
+		}
+
+		.stergeCont a:hover{
+			color:black;
+			background-image:linear-gradient(white,#515953);
+			
+		}
+	
